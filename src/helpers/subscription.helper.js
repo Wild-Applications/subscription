@@ -42,7 +42,7 @@ subscription.create = function(call, callback){
 
 function testTransaction(){
   console.log("Testing transaction");
-  paymentClient.createSubscriptionCharge({_id: 1, fee: 20000}, funtion(err, response){
+  paymentClient.createSubscriptionCharge({_id: 1, fee: 20000}, function(err, response){
     console.log(err);
     console.log(response);
   });
