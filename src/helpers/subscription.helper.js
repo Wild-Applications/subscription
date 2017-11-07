@@ -2,8 +2,7 @@
 //Username and Password Login
 
 //imports
-var mysql      = require('mysql'),
-jwt            = require('jsonwebtoken'),
+var jwt        = require('jsonwebtoken'),
 Subscription   = require('../models/subscription.schema.js'),
 errors         = require('../errors/errors.json'),
 grpc           = require("grpc");
