@@ -1,0 +1,17 @@
+{
+  "name": "subscription",
+  "version": "0.0.0",
+  "description": "Microservice to handle all subscriptions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "author": "Michael Wild",
+  "license": "ISC",
+  "dependencies": {
+    "grpc": "^1.4.1",
+    "jsonwebtoken": "^7.4.2",
+    "mongoose": "^4.11.7",
+  }
+}

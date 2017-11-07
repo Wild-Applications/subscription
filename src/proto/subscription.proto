@@ -1,0 +1,16 @@
+syntax = "proto3";
+//this belongs to this microservice
+package subscription;
+
+//Methods exposed to client
+service Service {
+  rpc get (Empty) returns (GetReply){}
+}
+
+// Message Type definition for user
+message Empty {
+}
+
+message GetReply {
+
+}
