@@ -40,6 +40,12 @@ subscription.create = function(call, callback){
   });
 }
 
+function testTransaction(){
+  paymentClient.createSubscriptionCharge({_id: 1, fee: 20000}, funtion(err, response){
+    console.log(err);
+    console.log(response);
+  });
+}
 
 
 module.exports = subscription;
